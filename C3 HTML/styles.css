@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-bottom: 4px solid #181111;
+}
+
+.section-1 {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border-bottom: 4px solid #c02b2b;
+}
+
+.section-1 h2 {
+    text-align: center;
+
+    
+}
+
+.section-2 {
+    background-color: lightgreen;
+    color: black;
+}
+
+.section-2 h2 {
+    text-align: end;
+}
+
+.section-3 {
+    background-color: lightpink;
+    color: black;
+}
+
+.section-3 h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-3 li {
+    text-align: center;
+}
+
+.section-4 {
+    background-color: lightyellow;
+    color: black;
+}
+
+.section-4 h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Coloca os elementos em uma coluna */
+    gap: 5px; /* Espaçamento de 10px entre os elementos */
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: auto;
+    padding: 20px; /* Adiciona um espaçamento interno no formulário */
+}
+
+label {
+    font-size: 10px; /* Tamanho de fonte ajustado para rótulos */
+}
+
+input {
+    padding: 8px; /* Adiciona espaço interno nos campos de texto */
+    font-size: 16px; /* Tamanho de fonte ajustado para o texto inserido */
+    border: 1px solid #ccc; /* Adiciona uma borda leve */
+    border-radius: 4px; /* Bordas arredondadas para um visual moderno */
+    width: 100%; /* Campos ocupam 100% da largura do formulário */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-top: 10px; /* Espaçamento acima do botão */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor mais clara quando o mouse passa sobre o botão */
+}
